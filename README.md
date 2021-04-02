@@ -1,4 +1,4 @@
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](https://github.com/leighbennett/leigh_develop/blob/master/leighbennett/atch/images/atch_logo.svg)
 Format: ![Alt Text](url)
 
 # atch
