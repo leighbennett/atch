@@ -1,8 +1,8 @@
 <p align="center">
 <img src="./atch_logo.svg" width="30%">
 </p>
-# atch
-Atch.js is a javascript library that manages file selection, previews, compression and uploads.
+
+<p align="center">Atch.js is a javascript library that manages file selection, previews, compression and uploads.</p>
 
 Usage:
 To use the lightbox you can simply add a reference to the .js file at the end of the body of your html and the .css file in the head of your html page.
