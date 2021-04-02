@@ -1,4 +1,4 @@
-<img src="https://github.com/leighbennett/leigh_develop/blob/master/leighbennett/atch/images/atch_logo.svg" width="40px">
+<img src="https://leighbennett.com.au/atch/images/atch_logo.svg" style="width:50%;">
 
 # atch
 Atch.js is ajavascript library that manages file selection, previews, compression and uploads.
