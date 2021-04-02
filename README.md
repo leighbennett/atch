@@ -1,4 +1,4 @@
-![GitHub Logo](../leigh_develop/blob/master/leighbennett/atch/images/atch_logo.svg)
+![image](../leigh_develop/blob/master/leighbennett/atch/images/atch_logo.svg)
 
 
 # atch
