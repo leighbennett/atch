@@ -21,14 +21,18 @@
   ***Parameters*** 
   
   **id**
-     Unique string 
+
+   Unique string 
+     
   **types**
-     Array of file types
-  **colors**   
-     Array of two colors
   
- 
-  ***Examples***
+   Array of file types
+     
+  **colors**   
+  
+   Array of two colors
+  
+   ***Examples***
   
     var image_input = Atch.add_ui({
         id:'image_input',
