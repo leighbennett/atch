@@ -6,20 +6,22 @@
 ## Methods: ##
 
 ### add_ui() ###
-- This method creates a html emelement call.
+    *Description*
+     This method creates a html emelement call.
 
-*Syntax*
+    *Syntax*
 
-*Parameters* 
+    *Parameters* 
 
-*Example*
+    *Example*
 
-Atch.send_it() - This will display the previous picture in the lightbox
+### send_it() ### 
+    *Description*
+    This will dis play the previous picture in the lightbox
 
+    *Syntax*
 
-*Syntax*
+    *Parameters* 
 
-*Parameters* 
-
-*Example*
+    *Example*
 
