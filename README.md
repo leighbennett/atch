@@ -12,7 +12,7 @@ For example, "<img src="image.png" class="fs-lightbox" />"
 
 That's it. When you click on the image, a lightbox preview of the image will appear.
 
-Methods:
+###Methods:###
 The plugin exposes some methods that you can use:
 
 fsLightbox.next() - This will display the next picture in the lightbox
