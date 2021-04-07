@@ -2,7 +2,7 @@
 <img src="./atch_logo.svg" width="30%">
 </p>
 
-<p align="center">Atch.js is a javascript library that manages file selection, previews, compression and uploads.</p>
+<p align="center">  *Atch.js is a javascript library that manages file selection, previews, compression and uploads.* </p>
 
 ### Usage: ###
 To use Atch.js simply add a reference to the .js file in the head of your html page.
