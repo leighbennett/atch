@@ -6,9 +6,14 @@
 ## Methods: ##
 
 ### add_ui() ###
-  Description  
+  ***Description***  
   This method creates a html emelement call.
-  *Syntax*
+  ***Syntax***
+        Atch.add_ui({
+            id:'input1',
+            types:['jpeg','png','jpg'],
+            colors : ['blue','green']
+        });
 
     *Parameters* 
 
