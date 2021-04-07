@@ -20,7 +20,7 @@
 
   ***Parameters*** 
   
-  id - Unique string required
+  id - Unique String required, to give id to the file UI.
      
   types - Array of file types required, current supported files are as follows : txt, pdf, jpeg, jpg, png, avi, mp4, mov
      
@@ -34,36 +34,31 @@
     });
     document.getElementById("imageForm").appendChild(image_input);
     
-    document.getElementById("imageForm").appendChild(Atch.add_ui({id:'movie_inputs',types:['mp4','mov','avi'],colors:['#fff','red]'}));
-
-    
 ### send_it() ### 
 ***Description*** 
   
-  The .send_it() method pre files.
+  The .send_it() method post files and all elements with name and value attribute.
   
   ***Syntax***
   
-     Atch.add_ui({
-         id:'input1',
-         types:['pdf','txt','png','jpg'],
-         colors : ['blue','green']
+     Atch.send_it({
+         form:'testForm',
+         action:'post_files.php',
+         stamp:'August 19, 2018' 
      });
 
   ***Parameters*** 
   
-  **id**
-     Unique string 
-  **types**
-     Array of file types
-  **colors**   
-     Array of two colors
+  form - Unique String required, id of a parent element contain all inputs to be processed. 
   
+  action - A string, file to process the form data.
+  
+  stamp - A string, to watermark an image
  
   ***Examples***
   
-    var image_input = Atch.add_ui({
-        id:'image_input',
-        types:['jpeg','png','jpg']
-    });
-    document.getElementById("imageForm").appendChild(image_input);
+    <form id="testForm" onsubmit="Atch.send_it({form:'testForm',action:'post_files.php'}); return false;">
+        <input type="text" name="testText" value="Helo World">
+        <input type="submit" value="Submit">
+    </form>  
+    
