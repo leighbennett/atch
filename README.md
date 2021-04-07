@@ -1,7 +1,7 @@
 <p align="center">
 <img src="./atch_logo.svg" width="30%">
 </p>
-<p align="center">  Atch.js is a javascript library that manages file selection, previews, compression and uploads. </p>
+<p align="center">  Atch.js is a open source javascript library that manages file selection, previews, compression and uploads. </p>
 
 ## Methods: ##
 
