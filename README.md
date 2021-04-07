@@ -6,7 +6,7 @@
 ## Methods: ##
 
 ### add_ui() ###
-    ___Description___
+    <b>Description</b>  
      This method creates a html emelement call.
 
     *Syntax*
@@ -23,5 +23,5 @@
 
     *Parameters* 
 
-    *Example*
+    *Example*___Strong emphasized text___ 
 
