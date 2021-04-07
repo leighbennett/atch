@@ -14,7 +14,7 @@
   
      Atch.add_ui({
          id:'input1',
-         types:['jpeg','png','jpg'],
+         types:['pdf','txt','png','jpg'],
          colors : ['blue','green']
      });
 
@@ -28,20 +28,41 @@
      Array of two colors
   
  
-  ***Example***
+  ***Examples***
+  
+    var image_input = Atch.add_ui({
+        id:'image_input',
+        types:['jpeg','png','jpg']
+    });
+    document.getElementById("imageForm").appendChild(image_input);
     
-    Atch.add_ui({
+### send_it() ### 
+***Description*** 
+  
+  The .add_ui() method creates a html element for user to select files.
+  
+  ***Syntax***
+  
+     Atch.add_ui({
          id:'input1',
-         types:['jpeg','png','jpg'],
+         types:['pdf','txt','png','jpg'],
          colors : ['blue','green']
      });
-### send_it() ### 
-    *Description*
-     The .send
 
-    *Syntax*
-
-    *Parameters* 
-
-    *Example*___Strong emphasized text___ 
-
+  ***Parameters*** 
+  
+  **id**
+     Unique string 
+  **types**
+     Array of file types
+  **colors**   
+     Array of two colors
+  
+ 
+  ***Examples***
+  
+    var image_input = Atch.add_ui({
+        id:'image_input',
+        types:['jpeg','png','jpg']
+    });
+    document.getElementById("imageForm").appendChild(image_input);
