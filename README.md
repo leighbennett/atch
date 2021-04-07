@@ -6,8 +6,9 @@
 ## Methods: ##
 
 ### add_ui() ###
-  ***Description***  
-  This method creates a html emelement call.
+  ***Description*** 
+  The .add_ui() method creates a html element for user to select files.
+  
   ***Syntax***
   
      Atch.add_ui({
@@ -17,7 +18,10 @@
      });
 
   ***Parameters*** 
-
+  *id*
+     Unique string
+  
+ 
   ***Example***
     
     Atch.add_ui({
@@ -27,7 +31,7 @@
      });
 ### send_it() ### 
     *Description*
-    This will dis play the previous picture in the lightbox
+     The .send
 
     *Syntax*
 
