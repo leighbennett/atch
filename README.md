@@ -19,7 +19,9 @@
      });
 
   ***Parameters*** 
-  *id*
+  
+  **id**
+  
      Unique string
   
  
