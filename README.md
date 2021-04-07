@@ -3,9 +3,9 @@
 </p>
 <p align="center">  Atch.js is a javascript library that manages file selection, previews, compression and uploads. </p>
 
-### Methods: ###
+# Methods: #
 
-add_ui() - This method creates a html emelement call.
+## add_ui() ## - This method creates a html emelement call.
 
 *Syntax*
 
