@@ -7,6 +7,7 @@
 
 ### add_ui() ###
   ***Description*** 
+  
   The .add_ui() method creates a html element for user to select files.
   
   ***Syntax***
