@@ -9,16 +9,22 @@
   ***Description***  
   This method creates a html emelement call.
   ***Syntax***
-        Atch.add_ui({
-            id:'input1',
-            types:['jpeg','png','jpg'],
-            colors : ['blue','green']
-        });
+  
+     Atch.add_ui({
+         id:'input1',
+         types:['jpeg','png','jpg'],
+         colors : ['blue','green']
+     });
 
-    *Parameters* 
+  ***Parameters*** 
 
-    *Example*
-
+  ***Example***
+    
+    Atch.add_ui({
+         id:'input1',
+         types:['jpeg','png','jpg'],
+         colors : ['blue','green']
+     });
 ### send_it() ### 
     *Description*
     This will dis play the previous picture in the lightbox
