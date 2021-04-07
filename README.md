@@ -22,11 +22,11 @@
   
   **id**
 
-   Unique string 
+   Unique string required
      
   **types**
   
-   Array of file types
+   Array of file types required, current supported files are as follows : txt, pdf, jpeg, jpg, png, avi, mp4, mov
      
   **colors**   
   
@@ -39,6 +39,9 @@
         types:['jpeg','png','jpg']
     });
     document.getElementById("imageForm").appendChild(image_input);
+    
+    document.getElementById("imageForm").appendChild(Atch.add_ui({id:'movie_inputs',types:['mp4','mov','avi'],colors:['#fff','red]'}));
+
     
 ### send_it() ### 
 ***Description*** 
