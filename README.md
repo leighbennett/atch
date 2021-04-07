@@ -6,7 +6,7 @@
 ## Methods: ##
 
 ### add_ui() ###
-    *Description*
+    ***Description***
      This method creates a html emelement call.
 
     *Syntax*
