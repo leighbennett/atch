@@ -21,8 +21,11 @@
   ***Parameters*** 
   
   **id**
-  
-   Unique string
+     Unique string 
+  **types**
+     Array of file types
+  **colors**   
+     Array of two colors
   
  
   ***Example***
