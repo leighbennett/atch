@@ -20,15 +20,15 @@
 
   ***Parameters*** 
   
-  **id**
-
+  *id*
+  
    Unique string required
      
-  **types**
+  *types*
   
    Array of file types required, current supported files are as follows : txt, pdf, jpeg, jpg, png, avi, mp4, mov
      
-  **colors**   
+  *colors*   
   
    Array of two colors
   
