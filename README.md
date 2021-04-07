@@ -8,7 +8,7 @@
 ### add_ui() ###
   ***Description*** 
   
-  The .add_ui() method creates a html element for user to select files.
+  The .add_ui() method creates a html element for user to select and preview files.
   
   ***Syntax***
   
@@ -20,17 +20,11 @@
 
   ***Parameters*** 
   
-  *id*
-  
-   Unique string required
+  id - Unique string required
      
-  *types*
-  
-   Array of file types required, current supported files are as follows : txt, pdf, jpeg, jpg, png, avi, mp4, mov
+  types - Array of file types required, current supported files are as follows : txt, pdf, jpeg, jpg, png, avi, mp4, mov
      
-  *colors*   
-  
-   Array of two colors
+  colors - Array of two colors
   
    ***Examples***
   
@@ -46,7 +40,7 @@
 ### send_it() ### 
 ***Description*** 
   
-  The .add_ui() method creates a html element for user to select files.
+  The .send_it() method pre files.
   
   ***Syntax***
   
